@@ -4,7 +4,7 @@
 				<hr>
 			</div>
 			<p class="heading mrg-t-20 text-center"></p>
-			<p class="cinzel clr-green fnt-16 text-center">Log in and view your information.</p>
+			<p class="fnt-16 text-center">Log in and view your information.</p>
 			<form class="pad-25" method="post" action="login.php">
 				<div class="row mrg-t-30">
 					<div class="form-group col-12 offset-lg-3 col-lg-6">
