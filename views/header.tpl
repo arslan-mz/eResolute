@@ -65,30 +65,30 @@
 					}
 				?>
 			'>
-				<b><?php
+				<?php
 					if (isset($_SESSION["login"]) && $_SESSION["login"] == "success") {
 						echo "My Profile";
 					}
 					elseif (isset($_SESSION["admin"]) && $_SESSION["admin"] == "success") {
 						echo "Dashboard";
 					}
-				?></b>
+				?>
 			</a>
 			&nbsp;&nbsp;&nbsp;&nbsp;
 			<i class="fas fa-sign-out-alt"></i>
 			&nbsp;
-			<a href="logout"><b>Log out</b></a>
+			<a href="logout">Log out</a>
 			<?php
 				}
 				else {
 			?>
 			<i class="fas fa-user-plus"></i>
 			&nbsp;
-			<a href="signup"><b>Register</b></a>
+			<a href="signup">Register</a>
 			&nbsp;&nbsp;&nbsp;&nbsp;
 			<i class="fas fa-arrow-circle-right fnt-14"></i>
 			&nbsp;
-			<a href="login"><b>Login</b></a>
+			<a href="login">Login</a>
 			<?php
 				}
 			?>
