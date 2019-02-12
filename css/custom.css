@@ -58,16 +58,8 @@ textarea {
 	font-weight: bold;
 }
 
-.post-btn {
-	padding: 3px 5px 0px 5px !important;
-}
-
 .btn.btn-primary:hover {
 	background: #009b43; transition: background .25s;
-}
-
-.pinkish {
-	color: #f4665a;
 }
 
 .break-word {

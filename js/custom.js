@@ -14,13 +14,3 @@ function validate() {
 		return false;
 	}
 }
-
-$(document).ready(function() {
-
-	activeURL(window.location.pathname);
-
-	$(".video-element").bind("contextmenu",function(){
-	    return false;
-	});
-
-});

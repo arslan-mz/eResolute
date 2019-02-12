@@ -19,8 +19,6 @@
 				<span class="sr-only">Next</span>
 			</a>
 		</div>
-		<div class="container mrg-tb-30 pad-15 bg-white">	
-			<h4 class="heading text-center mrg-t-20"></h4>
-			<br>
-			<p class="bodytext"></p>
+		<div class="container mrg-tb-30 pad-15 bg-white text-center">	
+			<img class="img-fluid" src="images/eresolute-logo.png">
 		</div>

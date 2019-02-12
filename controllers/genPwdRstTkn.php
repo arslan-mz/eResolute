@@ -18,8 +18,8 @@
 				$query = "UPDATE users SET reset_token = '$token' WHERE email = '$target'";
 				
 				if($db_connect->update_query($query)) {
-					$email_from = "support@kalamanthan.in";
-					$email_subject = "Password reset request | KalaManthan";
+					$email_from = "support@eresolute.com";
+					$email_subject = "Password reset request | eResolute";
 					$msg = "";
 					$msg .= "Hi ".$tuple["user"].", here is the password reset link that you requested:\n\n".WEBPATH."reset?id=".$token;
 					$headers = 'From: '.$email_from."\r\n".'Reply-To: '.$email_from."\r\n".'X-Mailer: PHP/'.phpversion();
