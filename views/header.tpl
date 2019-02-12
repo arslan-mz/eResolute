@@ -8,8 +8,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
 
-	<meta name="theme-color" content="#408000">
-	
     <!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
@@ -27,10 +25,10 @@
 </head>
 
 <body class="clr-grey">
-	<div class="container-fluid fixed-top quicksand bg-black">
+	<div class="container-fluid fixed-top quicksand bg-light">
 		<nav class="navbar navbar-expand-lg navbar-light fnt-14 pad-tb-0">
 			<a class="navbar-brand" href="home"><img class="img-fluid" alt="Responsive image" src="images/eresolute-logo.png" width="160" alt="Logo"></a>
-			<button class="navbar-toggler navbar-dark menu-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				Menu
 			</button>
 			<div class="collapse navbar-collapse text-center" id="navbarSupportedContent">

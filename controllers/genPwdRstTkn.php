@@ -28,7 +28,7 @@
 						$_SESSION['alert-type'] = "success";
 					}
 					else {
-						$_SESSION['alert-msg'] = "There was some error! Please try again.";
+						$_SESSION['alert-msg'] = "Password reset link could not be mailed (password required for email)! Please try again.";
 						$_SESSION['alert-type'] = "danger";
 					}
 				}
