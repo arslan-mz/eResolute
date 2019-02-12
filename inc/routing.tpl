@@ -22,12 +22,12 @@
 				require_once(PAGE.'home.tpl');
 				break;
 
-			case 'su':
-				require_once(PAGE.'suLogin.tpl');
+			case 'admin':
+				require_once(PAGE.'adminLogin.tpl');
 				break;
 
-			case 'suLogin.php':
-				require_once(CTRL.'suLogin.php');
+			case 'adminLogin.php':
+				require_once(CTRL.'adminLogin.php');
 				break;
 
 			case 'contact':
@@ -80,8 +80,8 @@
 				require_once(CTRL.'logout.php');
 				break;
 
-			case 'approve':
-				require_once(CTRL.'approve.php');
+			case 'decision':
+				require_once(CTRL.'decision.php');
 				break;
 
 			case 'deleteUser':
@@ -92,7 +92,7 @@
 				if (isset($_SESSION["admin"]) && $_SESSION["admin"] == "success")
 					require_once(PAGE.'dashboard.tpl');
 				else
-					require_once(PAGE.'suLogin.tpl');
+					require_once(PAGE.'adminLogin.tpl');
 				break;
 
 			case 'contactSubs':

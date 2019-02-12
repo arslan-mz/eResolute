@@ -39,7 +39,7 @@
 		else {
 			$_SESSION['alert-msg'] = "Invalid Input!";
 			$_SESSION['alert-type'] = "danger";
-			header('location:su');
+			header('location:admin');
 		}
 	}
 	else

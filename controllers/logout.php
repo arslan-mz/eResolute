@@ -4,13 +4,9 @@
 		unset($_SESSION["login"]);
 		header('location:login');
 	}
-	if (isset($_SESSION["panelist"])){
-		unset($_SESSION["panelist"]);
-		header('location:panelist');
-	}
 	if (isset($_SESSION["admin"])){
 		unset($_SESSION["admin"]);
-		header('location:su');
+		header('location:admin');
 	}
 	$_SESSION["alert-msg"] = "Logged out! See ya soon!";
 	$_SESSION["alert-type"] = "success";

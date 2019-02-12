@@ -3,7 +3,7 @@
 				<h2>Admin Login</h2>
 				<hr>
 			</div>
-			<form class="pad-25" method="post" action="suLogin.php">
+			<form class="pad-25" method="post" action="adminLogin.php">
 				<div class="row mrg-t-30">
 					<div class="form-group col-12 offset-lg-3 col-lg-6">
 						<label for="InputID">Admin ID *</label>
